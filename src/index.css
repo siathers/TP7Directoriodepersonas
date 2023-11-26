@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #212121;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+}
+
+ul {
+  list-style-type: square;
+  margin: 20px;
+  padding: 20px;
+  background-color: #424242;
+  border-radius: 10px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  background-color: #757575;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+a {
+  color: #e0e0e0;
+}
+
+p {
+  color: #bdbdbd;
+}
+
+.Listita {
+  color: #fafafa;
+  background-color: #ff6f00;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.TituloLista {
+  margin-top: 50px;
+  text-align: center;
+  color: #ffeb3b;
+  font-size: 40px;
+  font-family: 'Courier New', monospace;
+}
+
+.NombreLista {
+  text-align: center;
+  color: #ffee58;
+  font-size: 28px;
+  font-family: 'Courier New', monospace;
+}
+
+.DetallesPersona {
+  text-align: center;
+  color: #cfd8dc;
+  font-size: 20px;
+  font-family: 'Courier New', monospace;
+}
+
+.StatsPersona {
+  text-align: center;
+  color: #b0bec5;
+  font-size: 18px;
+  font-family: 'Courier New', monospace;
+}
+
+form {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #333333;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+::placeholder {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.TituloForm {
+  margin-top: 30px;
+  text-align: center;
+  color: #f9a825;
+  font-size: 42px;
+  font-family: 'Courier New', monospace;
+}
+
+input {
+  width: 250px;
+  height: 35px;
+  background-color: #616161;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.pixel2 {
+  font-size: 20px;
+  color: #fff9c4;
+  margin: 10px;
+  font-family: 'Courier New', monospace;
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.pixel2:hover {
+  background-color: #ff9e80;
+}
+
+.ContenedorBoton {
+  text-align: center;
+  margin-top: 30px;
+}
